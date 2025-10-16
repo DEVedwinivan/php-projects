@@ -39,10 +39,11 @@ session_start();
         $_SESSION['result'][] = $results ?? '';
         if (isset($_SESSION['result'])) {
             foreach ($_SESSION['result'] as $r) {
-                echo "Results history: $r<br>";
+                echo "<br>Results history: $r<br>";
             }
         }
 
     ?>
 </body>
+
 </html>
