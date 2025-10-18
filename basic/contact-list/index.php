@@ -18,12 +18,12 @@ if(file_exists($file)){
                 <th>Telephone</th>
                 <th>Options</th>
             </tr>
-            <?php foreach ($contact as $c): ?>
+            <?php foreach ($contact as $con): ?>
             <tr>
-                <td><?= htmlspecialchars($c['name'])   ?></td>
-                <td><?= htmlspecialchars($c['address'])   ?></td>
-                <td><?= htmlspecialchars($c['email'])   ?></td>
-                <td><?= htmlspecialchars($c['tel'])   ?></td>
+                <td><?= htmlspecialchars($con['name'])   ?></td>
+                <td><?= htmlspecialchars($con['address'])   ?></td>
+                <td><?= htmlspecialchars($con['email'])   ?></td>
+                <td><?= htmlspecialchars($con['tel'])   ?></td>
                 <td><button class="update">Update</button> - <button class="delete">Delete</button></td>
             </tr>
             <?php endforeach; ?>
