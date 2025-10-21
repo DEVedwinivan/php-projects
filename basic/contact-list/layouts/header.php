@@ -14,5 +14,4 @@
             <a href="index.php">Read</a>
             <a href="create-contact.php">Create</a>
         </nav>
-
     </header>

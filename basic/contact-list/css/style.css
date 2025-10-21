@@ -51,8 +51,10 @@ th{
 }
 .update, .delete{
     border: none;
-    padding: 10px;
+    padding: 6px;
     cursor: pointer;
+    color: #000000;
+    text-decoration: none;
 }
 .update:hover{
     background-color: transparent;
