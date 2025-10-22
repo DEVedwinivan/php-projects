@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #16232A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff5b04;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+form{
+    border: 3px solid #a8aaac;
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #075054;
+}
+input, select, option{
+    background-color: #fef8e8;
+    border: none;
+    padding: 8px;
+    color: #000000;
+}
+
+button{
+    background-color: #ff5b04;
+    padding: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #000000;
+}
+button:hover{
+    background-color: transparent;
+    border: 1px solid #f44a22;
+    color: #f44a22;
+}
+
+.result{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
