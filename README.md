@@ -22,3 +22,9 @@ Each project represents a different level of learning, from **basic logic to mor
     <td>This page is a basic website where you can perform basic CRUD (create, read, update, and delete) operations. The data is stored without a database in a JSON file.</td>
   </tr>
 </table>
+
+## Technologies used in projects 💻🖥️
+<ul>
+  <li>PHP (pure, procedural and OOP examples)</li>
+  <li>HTML, CSS, JSON</li>
+</ul>
