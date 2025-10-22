@@ -24,7 +24,7 @@ if(file_exists($file)){
                 <td><?= htmlspecialchars($con['address'])   ?></td>
                 <td><?= htmlspecialchars($con['email'])   ?></td>
                 <td><?= htmlspecialchars($con['tel'])   ?></td>
-                <td><a href="edit.php?id=<?= $con['id']; ?>" class="update">Update</a> - <a href="<?= $con['id']; ?>" class="delete">Delete</a></td>
+                <td><a href="edit.php?id=<?= $con['id']; ?>" class="update">Update</a> - <a href="delete.php?id=<?= $con['id']; ?>" class="delete">Delete</a></td>
             </tr>
             <?php endforeach; ?>
         </table>

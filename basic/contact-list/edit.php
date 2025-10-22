@@ -16,7 +16,7 @@ foreach ($contact as $con) {
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' ) {
-    foreach ($contact as $con) {
+    foreach ($contact as &$con) {
         if ($con['id'] == $id) {
             $con['name'] = $_POST['name'];
             $con['address'] = $_POST['address'];
@@ -25,7 +25,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' ) {
             break;
         }
     }
-    file_put_contents($file, json_encode($contact, JSON_PRETTY_PRINT));
+    unset($con);
+    $json = json_encode($contact, JSON_PRETTY_PRINT);
+    file_put_contents($file, $json);
     header("location:index.php");
     exit;
 }
@@ -37,21 +39,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' ) {
     <form method="POST">
         <div>
             <label for="name">Name</label>
-            <input type="text" name="name" value="<?= $specificContact['name'] ?>" required>
+            <input type="text" name="name" value="<?= htmlspecialchars($specificContact['name']) ?>">
         </div>
         <div>    
             <label for="address">Address</label>
-            <input type="text" name="address" value="<?= $specificContact['address'] ?>" required>
+            <input type="text" name="address" value="<?= htmlspecialchars($specificContact['address']) ?>">
         </div>
         <div>
             <label for="email">Email</label>
-            <input type="email" name="email" value="<?= $specificContact['email'] ?>" required>
+            <input type="email" name="email" value="<?= htmlspecialchars($specificContact['email']) ?>">
         </div>
         <div>
             <label for="tel">Telephone</label>
-            <input type="text" name="tel" value="<?= $specificContact['tel'] ?>" required>
+            <input type="text" name="tel" value="<?= htmlspecialchars($specificContact['tel']) ?>">
         </div>
-            <input class="btn" type="submit" value="Submit">
+            <input class="btn" type="submit" value="Update Contact">
         </form>
     </section>
 
