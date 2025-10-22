@@ -21,6 +21,11 @@ Each project represents a different level of learning, from **basic logic to mor
     <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/contact-list">Contact List</a></td>
     <td>This page is a basic website where you can perform basic CRUD (create, read, update, and delete) operations. The data is stored without a database in a JSON file.</td>
   </tr>
+  <tr>
+    <td>🟢Basic</td>
+    <td>Practice syntax, forms, and file management.</td>
+    <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/unit-converter">Unit Converter</a></td>
+  </tr>
 </table>
 
 ## Technologies used in projects 💻🖥️
