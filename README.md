@@ -28,3 +28,4 @@ Each project represents a different level of learning, from **basic logic to mor
   <li>PHP (pure, procedural and OOP examples)</li>
   <li>HTML, CSS, JSON</li>
 </ul>
+## What is the purpose of this repository? 🧠 
