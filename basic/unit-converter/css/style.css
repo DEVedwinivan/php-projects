@@ -1,11 +1,34 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #16232A;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ff5b04;
+} 
+header{
+    background-color: #075054;
+    height: 80px;
+    width: 100%;
 }
-.form{
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header nav ul li a{
+text-decoration: none;
+}
+header nav ul li a:hover{
+    border-bottom: 2px solid red;
+    transition: .2s;
+}
+body{
+    background-color: #16232A;
+}
+/* .form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,4 +70,4 @@ button:hover{
     display: flex;
     justify-content: center;
     font-weight: 700;
-}
+} */
