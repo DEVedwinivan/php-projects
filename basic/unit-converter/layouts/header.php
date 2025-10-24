@@ -21,4 +21,5 @@
     </nav>
 </header>
 <body>
-    <p class="explanation">On the form, select a type of measurement and enter the value you want to convert, then press the button and it will be converted to other measurements. </p>
+    <p class="explanation">On the form, select a type of measurement and enter the value you want to convert, then press the button and it will be converted to other measurements. From the header ⬆️⬆️ you can change the type of unit of measurement, for example: from length, change to mass. </p>
+
