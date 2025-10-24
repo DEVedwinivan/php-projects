@@ -27,6 +27,12 @@ Each project represents a different level of learning, from **basic logic to mor
     <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/unit-converter">Unit Converter</a></td>
     <td>Basic website that will convert units such as length, weight, temperature, and volume for the purpose of acquiring or improving knowledge.</td>
   </tr>
+  <tr>
+    <td>🟢Basic</td>
+    <td>Practice syntax, forms, and file management.</td>
+    <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/secure-password-generator">Secure Password Generator</a></td>
+    <td></td>
+  </tr>
 </table>
 
 ## Technologies used in projects 💻🖥️
