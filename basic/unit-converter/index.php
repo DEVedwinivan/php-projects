@@ -1,37 +1,41 @@
-<?php
-$value = $_POST['valueone'] ?? null;
+<?php 
+include 'layouts/header.php';
+
+$option = $_POST['options'];
+$value = $_POST['value'] ?? '';
+
+
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/style.css">
-    <title>Unit Converter</title>
-</head>
-<body>
-    <section class="form"> 
-        <form method="post">
-            <select>
-                <option value="lenght">Lenght</option>
-                <option value="weight">Weight</option>
-                <option value="temperature">Temperature</option>
-                <option value="volume">Volume</option>
+    <section class="form">
+        <form action="" method="post">
+            <select name="options" id="">
+                <option value="meters">Meters</option>
+                <option value="kilometers">Kilometers</option>
+                <option value="centimeters">Centimeters</option>
             </select>
-
-            <input name="valueone" type="text">
-            <input name="" type="text">
-            <input name="" type="text">
-            <button type="submit">Convert</button>
+            <input type="text" name="value" placeholder="Enter the Value">
+            <Button type="submit">Convert</Button>
         </form>
-    <section class="result">
-        <?= $value ?>
-        <?= $value ?>
-        <?= $value ?>
     </section>
-    </section>
+    <section class="results">
+        <p class="value">The value to be converted is: <span><?= $value ?> </span></p>
+<?php
+        if ($option == "meters") {
+            $km = $value / 1000;
+            $cm = $value * 100;
+            echo "<p class='result'>Conversion results: <span>".$km."km"." ".$cm."cm </span></p>";
+        }elseif ($option == "kilometers") {
+            $meter = $value * 1000;
+            $cm = $value * 100000;
+            echo "<p class='result'>Conversion results: <span> ".$meter."m"." ".$cm."cm </span></p>";
+        }elseif ($option == "centimeters") {
+            $km = $value / 100000;
+            $meter = $value / 100;
+            echo "<p class='result'>Conversion results: <span> ".$km."km"." ".$meter."m </span></p>";
+        }
 
-</body>
-</html>
+?>
+    </section>
+<?php
+        include 'layouts/footer.php'
+?>

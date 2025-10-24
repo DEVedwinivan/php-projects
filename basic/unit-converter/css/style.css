@@ -19,26 +19,34 @@ header nav ul{
     gap: 20px;
 }
 header nav ul li a{
-text-decoration: none;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
 }
 header nav ul li a:hover{
     border-bottom: 2px solid red;
-    transition: .2s;
+    transition: 0.3s;
 }
 body{
     background-color: #16232A;
 }
-/* .form{
+.explanation{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 50%;
+    color: #fef8e8;
+}
+ .form{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 30vh;
     flex-direction: column;
 }
 form{
     border: 3px solid #a8aaac;
     width: 70%;
-    height: 30%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,9 +73,17 @@ button:hover{
     color: #f44a22;
 }
 
-.result{
-    font-size: 40px;
+.results{
     display: flex;
     justify-content: center;
-    font-weight: 700;
-} */
+    flex-direction: column;
+    align-items: center;
+} 
+.results .value{
+    font-size: 20px;
+    color: #fef8e8;
+}
+.results .result{
+    color: #fef8e8;
+    font-size: 25px;
+}
