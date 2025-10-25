@@ -19,7 +19,10 @@ $length = isset($_POST['cant']) ? (int)$_POST['cant'] : 0;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="author" content="Edwin Velazquez">
+    <meta name="description" content="Generator of random and secure passwords with configurable parameters.">
+
+
     <link rel="stylesheet" href="css/style.css">
     <title>Secure Password Generator</title>
 </head>
