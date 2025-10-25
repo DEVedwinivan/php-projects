@@ -31,7 +31,7 @@ Each project represents a different level of learning, from **basic logic to mor
     <td>🟢Basic</td>
     <td>Practice syntax, forms, and file management.</td>
     <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/secure-password-generator">Secure Password Generator</a></td>
-    <td></td>
+    <td>Generator of random and secure passwords with configurable parameters.</td>
   </tr>
 </table>
 
