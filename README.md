@@ -35,11 +35,19 @@ Each project represents a different level of learning, from **basic logic to mor
   </tr>
 </table>
 
-## Technologies used in projects 💻🖥️
+## Technologies used in projects
 <ul>
   <li>PHP (pure, procedural and OOP examples)</li>
   <li>HTML, CSS, JSON</li>
 </ul>
 
-## What is the purpose of this repository? 🧠
+## What is the purpose of this repository?
 <p>Strengthen your PHP fundamentals</p>
+
+## About the Author
+<b>Edwin Ivan Rodriguez Velazquez</b>
+<ul>
+  <li>Junior Developer | PHP | Laravel | MySQL | SQL | Passionate about technology, innovation, and continuous learning</li>
+  <li>Email : evir4004@gmail.com</li>
+  <li>Linkedin<a href="www.linkedin.com/in/edwin-ivan-rodriguez-velazquez-66b2a3296">Edwin Ivan Rodriguez Velazquez</a></li>
+</ul>
