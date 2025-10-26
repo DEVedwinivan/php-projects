@@ -16,22 +16,28 @@ Each project represents a different level of learning, from **basic logic to mor
     <td>This page is a basic website where you can perform simple mathematical operations</td>
   </tr>
   <tr>
-    <td>🟢Basic</td>
+    <td>Basic</td>
     <td>Practice syntax, forms, and file management.</td>
     <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/contact-list">Contact List</a></td>
     <td>This page is a basic website where you can perform basic CRUD (create, read, update, and delete) operations. The data is stored without a database in a JSON file.</td>
   </tr>
   <tr>
-    <td>🟢Basic</td>
+    <td>Basic</td>
     <td>Practice syntax, forms, and file management.</td>
     <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/unit-converter">Unit Converter</a></td>
     <td>Basic website that will convert units such as length, weight, temperature, and volume for the purpose of acquiring or improving knowledge.</td>
   </tr>
   <tr>
-    <td>🟢Basic</td>
+    <td>Basic</td>
     <td>Practice syntax, forms, and file management.</td>
     <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/secure-password-generator">Secure Password Generator</a></td>
     <td>Generator of random and secure passwords with configurable parameters.</td>
+  </tr>
+  <tr>
+    <td>Intermediate</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
