@@ -49,5 +49,6 @@ Each project represents a different level of learning, from **basic logic to mor
 <ul>
   <li>Junior Developer | PHP | Laravel | MySQL | SQL | Passionate about technology, innovation, and continuous learning</li>
   <li>Email : evir4004@gmail.com</li>
-  <li>Linkedin<a href="www.linkedin.com/in/edwin-ivan-rodriguez-velazquez-66b2a3296">Edwin Ivan Rodriguez Velazquez</a></li>
+  <li>Linkedin: <a href="www.linkedin.com/in/edwin-ivan-rodriguez-velazquez-66b2a3296">Edwin Ivan Rodriguez Velazquez</a></li>
+  <li>GitHub: <a href="https://github.com/DEVedwinivan">DEVedwinivan</a></li>
 </ul>
