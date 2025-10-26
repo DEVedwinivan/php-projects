@@ -10,7 +10,7 @@ Each project represents a different level of learning, from **basic logic to mor
     <th> Project Description</th>
   </tr>
   <tr>
-    <td>🟢Basic</td>
+    <td>Basic</td>
     <td>In this project, I practiced syntax, declaring variables, and using predefined variables like $_GET and $_SESSION, along with some session functions.</td>
     <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/web-calculator">Web Calculator</a></td>
     <td>This page is a basic website where you can perform simple mathematical operations</td>
@@ -36,7 +36,7 @@ Each project represents a different level of learning, from **basic logic to mor
   <tr>
     <td>Intermediate</td>
     <td></td>
-    <td></td>
+    <td><a>PHP Auth System</a></td>
     <td></td>
   </tr>
 </table>
