@@ -11,7 +11,7 @@ Each project represents a different level of learning, from **basic logic to mor
   </tr>
   <tr>
     <td>🟢Basic</td>
-    <td>Practice syntax and sessions</td>
+    <td>In this project, I practiced syntax, declaring variables, and using predefined variables like $_GET and $_SESSION, along with some session functions.</td>
     <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/basic/web-calculator">Web Calculator</a></td>
     <td>This page is a basic website where you can perform simple mathematical operations</td>
   </tr>
