@@ -36,7 +36,7 @@ Each project represents a different level of learning, from **basic logic to mor
   <tr>
     <td>Intermediate</td>
     <td></td>
-    <td><a>PHP Auth System</a></td>
+    <td><a href="https://github.com/DEVedwinivan/php-projects/tree/main/intermediate/auth-system">PHP Auth System</a></td>
     <td></td>
   </tr>
 </table>
