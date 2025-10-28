@@ -8,7 +8,10 @@ $time = null;
 $stmt = $mysqli->prepare("INSERT INTO users(id, name, email, password, created_at) VALUES (?, ?, ?, ?, ?)");
 $stmt->bind_param("sssss", $id, $name, $email, $pass, $time);
 $stmt->execute();
-echo "Hello " . $name . " Your email is: " . $email . " and your password is " . $pass;
+header('location: /php-projects/intermediate/auth-system/home.php');
+exit;
+// echo "Hello " . $name . " Your email is: " . $email . " and your password is " . $encrypt;
+
 
 
 ?>
